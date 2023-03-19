@@ -8,7 +8,7 @@ function Links() {
         {links.map((link) => (
           <li className="mb-4" key={link.title}>
             <a
-              className="relative transition duration-200 font-bold bg-blue-400 border-blue-400 border-2 hover:bg-transparent py-4 w-100 block text-center text-white hover:text-blue-400 rounded-lg pl-12 md:px-12"
+              className="relative transition duration-200 font-bold border-2 hover:bg-transparent py-4 w-100 block text-center text-white hover:text-blue-400 rounded-lg md:px-12"
               href={link.url}
               alt={link.title}
               target="_blank"
