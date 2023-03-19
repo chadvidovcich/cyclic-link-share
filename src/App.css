@@ -1,5 +1,5 @@
 html {
-  background-color: black;
+  background-color: #27272a;
 }
 
 .App {
@@ -29,7 +29,7 @@ html {
 }
 
 .App-link {
-  color: #61dafb;
+  color: #e0e0e0;
 }
 
 @keyframes App-logo-spin {
