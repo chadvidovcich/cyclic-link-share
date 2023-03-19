@@ -1,8 +1,8 @@
 [
   {
-    "title": "My Website",
+    "title": "Portfolio",
     "url": "https://chadvidovcich.com",
-    "emoji": "🏡"
+    "emoji": ""
   },
   {
     "title": "LinkedIn",
@@ -17,6 +17,11 @@
   {
     "title": "Twitter",
     "url": "https://www.twitter.com/chadvidovcich/",
+    "emoji": ""
+  },
+  {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/chadvidovcich/",
     "emoji": ""
   }
 ]
