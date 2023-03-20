@@ -1,18 +1,36 @@
 import React from 'react';
+import tw from 'tailwind-styled-components';
+
+const FooterMainStyles = tw.footer`
+text-zinc-300
+  mx-auto
+  pt-8
+`;
+
+const FooterLinkStyles = tw.div` 
+h-14
+w-fit
+mx-auto
+px-5
+py-1
+flex
+justify-center
+hover:bg-zinc-900/50
+rounded-full
+`;
 
 function Footer() {
   return (
-    <footer className="px-3 sm:px-0">
-      <div className="container text-center mx-auto">
-        <div className="md:w-4/6 mx-auto">
-          <p className="py-4 text-center text-xs sm:text-sm font-light text-white">
-            Thanks for visiting!
-            <br />
-            Deployed on <a href="https://www.cyclic.sh/">Cyclic</a>
-          </p>
-        </div>
-      </div>
-    </footer>
+    <FooterMainStyles>
+      <p className="pb-2">Deployed On</p>
+      <FooterLinkStyles $as="a" href="https://www.cyclic.sh/">
+        <img
+          className="object-scale-down"
+          src="https://www.cyclic.sh/images/cyclic-logo.png"
+          alt="Logo and Link For Cyclic.sh"
+        />
+      </FooterLinkStyles>
+    </FooterMainStyles>
   );
 }
 export default Footer;
