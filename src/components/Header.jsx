@@ -1,17 +1,24 @@
 import React from 'react';
+import tw from 'tailwind-styled-components';
+
+const HeaderStyles = tw.header`
+text-zinc-300
+mx-auto
+text-center
+flex 
+flex-col
+
+pt-6
+pb-14
+
+`;
 
 function Header() {
   return (
-    <header className="container flex text-center mx-auto py-10 ">
-      <div className=" w-full">
-        <h1 className="text-xl font-bold text-blue-100 text-center font-semibold animate-pulse">
-          Chad Vidovcich
-        </h1>
-        <p className="text-white">
-          Full-Stack Software Engineer | Mechanical Engineer
-        </p>
-      </div>
-    </header>
+    <HeaderStyles>
+      <h1 className="text-4xl font-bold text-slate-50 ">Chad Vidovcich</h1>
+      <p className="">Full-Stack Software Engineer | Mechanical Engineer</p>
+    </HeaderStyles>
   );
 }
 
