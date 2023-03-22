@@ -23,7 +23,10 @@ function Footer() {
   return (
     <FooterMainStyles>
       <p className="pb-2">Deployed On</p>
-      <FooterLinkStyles $as="a" href="https://www.cyclic.sh/">
+      <FooterLinkStyles
+        $as="a"
+        href="https://app.cyclic.sh/#/join/chadvidovcich"
+      >
         <img
           className="object-scale-down"
           src="https://www.cyclic.sh/images/cyclic-logo.png"
