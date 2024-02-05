@@ -8,7 +8,7 @@ text-zinc-300
 `;
 
 const FooterLinkStyles = tw.div` 
-h-14
+h-10
 w-fit
 mx-auto
 px-5
