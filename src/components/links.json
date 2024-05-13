@@ -1,27 +1,27 @@
 [
-  {
-    "title": "Portfolio",
-    "url": "https://www.chadvidovcich.com",
-    "emoji": ""
-  },
-  {
-    "title": "LinkedIn",
-    "url": "https://www.linkedin.com/in/chadvidovcich/",
-    "emoji": ""
-  },
-  {
-    "title": "Github",
-    "url": "https://www.github.com/chadvidovcich",
-    "emoji": ""
-  },
-  {
-    "title": "Twitter",
-    "url": "https://www.twitter.com/chadvidovcich/",
-    "emoji": ""
-  },
-  {
-    "title": "Instagram",
-    "url": "https://www.instagram.com/chadvidovcich/",
-    "emoji": ""
-  }
+	{
+		"title": "Personal Website",
+		"url": "https://www.chadvidovcich.com",
+		"emoji": ""
+	},
+	{
+		"title": "LinkedIn",
+		"url": "https://www.linkedin.com/in/chadvidovcich/",
+		"emoji": ""
+	},
+	{
+		"title": "Github",
+		"url": "https://www.github.com/chadvidovcich",
+		"emoji": ""
+	},
+	{
+		"title": "Twitter",
+		"url": "https://www.twitter.com/chadvidovcich/",
+		"emoji": ""
+	},
+	{
+		"title": "Instagram",
+		"url": "https://www.instagram.com/chadvidovcich/",
+		"emoji": ""
+	}
 ]

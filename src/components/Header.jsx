@@ -14,12 +14,12 @@ pb-14
 `;
 
 function Header() {
-  return (
-    <HeaderStyles>
-      <h1 className="text-4xl font-bold text-slate-50 ">Chad Vidovcich</h1>
-      <p className="">Full-Stack Software Engineer | Mechanical Engineer</p>
-    </HeaderStyles>
-  );
+	return (
+		<HeaderStyles>
+			<h1 className='text-4xl font-bold text-slate-50 pb-4'>Chad Vidovcich</h1>
+			<p className='text-slate-50'>Mechanical Engineer | Full-Stack Software Engineer | Good Human</p>
+		</HeaderStyles>
+	);
 }
 
 export default Header;
